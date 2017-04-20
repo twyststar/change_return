@@ -1,9 +1,13 @@
 <h1>Enter the amount of change</h1>
-<form class="" action="/coin_form" method="post">
+<form class="" action="/form" method="post">
   <div class="form-group">
-    <input type="number" name="name" value="">
+    <input type="number" id="name" name="name" value="">
     <button type="submit" name="button">Click</button>
   </div>
-
-
 </form>
+  <div class="results">
+    <p>Quarters:<span><%= @quarters %></span></p>
+    <p>Dimes:<span><%= @dimes %></span></p>
+    <p>Nickles:<span><%= @nickles %></span></p>
+    <p>Pennies:<span><%= @pennies %></span></p>
+  </div>

@@ -21,19 +21,3 @@ class String
   end
 
 end
-
-
-# counter = total change
-# until counter.==(0)
-
-# if (counter /25) >= 1
-#   change_arry.push((counter /25).floor)
-#   counter = counter - (change_arry[0] * 25)
-# elsif (counter /10) >= 1
-#   change_arry.push((counter /10).floor)
-#   counter = counter - (change_arry[0] * 10)
-# end
-
-#   puts "Hello"
-#   counter = counter.-(qrts * 25)
-# end
